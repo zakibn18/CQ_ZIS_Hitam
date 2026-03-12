@@ -36,6 +36,7 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnHitungDosen = new System.Windows.Forms.Button();
             this.btnUpdateSKS = new System.Windows.Forms.Button();
+            this.btnInsertProdi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtHasil
@@ -56,9 +57,9 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(121, 271);
+            this.btnConnect.Location = new System.Drawing.Point(78, 271);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(89, 33);
+            this.btnConnect.Size = new System.Drawing.Size(132, 33);
             this.btnConnect.TabIndex = 2;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
@@ -66,9 +67,9 @@
             // 
             // btnHitungMhs
             // 
-            this.btnHitungMhs.Location = new System.Drawing.Point(269, 271);
+            this.btnHitungMhs.Location = new System.Drawing.Point(256, 271);
             this.btnHitungMhs.Name = "btnHitungMhs";
-            this.btnHitungMhs.Size = new System.Drawing.Size(118, 33);
+            this.btnHitungMhs.Size = new System.Drawing.Size(131, 33);
             this.btnHitungMhs.TabIndex = 3;
             this.btnHitungMhs.Text = "Hitung Mhs";
             this.btnHitungMhs.UseVisualStyleBackColor = true;
@@ -76,9 +77,9 @@
             // 
             // btnHitungMK
             // 
-            this.btnHitungMK.Location = new System.Drawing.Point(443, 271);
+            this.btnHitungMK.Location = new System.Drawing.Point(430, 271);
             this.btnHitungMK.Name = "btnHitungMK";
-            this.btnHitungMK.Size = new System.Drawing.Size(114, 33);
+            this.btnHitungMK.Size = new System.Drawing.Size(127, 33);
             this.btnHitungMK.TabIndex = 4;
             this.btnHitungMK.Text = "Hitung Mk";
             this.btnHitungMK.UseVisualStyleBackColor = true;
@@ -112,11 +113,21 @@
             this.btnUpdateSKS.Text = "Update SKS";
             this.btnUpdateSKS.UseVisualStyleBackColor = true;
             // 
+            // btnInsertProdi
+            // 
+            this.btnInsertProdi.Location = new System.Drawing.Point(430, 346);
+            this.btnInsertProdi.Name = "btnInsertProdi";
+            this.btnInsertProdi.Size = new System.Drawing.Size(127, 32);
+            this.btnInsertProdi.TabIndex = 8;
+            this.btnInsertProdi.Text = "Insert Prodi";
+            this.btnInsertProdi.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnInsertProdi);
             this.Controls.Add(this.btnUpdateSKS);
             this.Controls.Add(this.btnHitungDosen);
             this.Controls.Add(this.btnUpdate);
@@ -142,6 +153,7 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnHitungDosen;
         private System.Windows.Forms.Button btnUpdateSKS;
+        private System.Windows.Forms.Button btnInsertProdi;
     }
 }
 
