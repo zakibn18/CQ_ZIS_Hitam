@@ -21,5 +21,13 @@ namespace PraktikumADO
         {
             InitializeComponent();
         }
+
+        // Method Koneksi Database
+        private void Koneksi()
+        {
+            conn = new SqlConnection(
+                "Data Source=DESKTOP-8TS9IRD\\ZAKIBN; Initial Catalog=DBAkademikADO; Integrated Security=True"
+            );
+        }
     }
 }
